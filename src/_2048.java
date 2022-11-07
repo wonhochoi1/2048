@@ -2,10 +2,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * 2048 is a single-player puzzle game in which the objective is to slide numbered tiles on a 4x4 grid to combine them and
- * create a tile with the number 2048.  When tiles are combined, the score increases by an amount equal to the combination
+ * Class setting the methods and construction of the 2048 game. 
+ * 2048 is a single-player arithmetic game where the user is able to slide numbered tiles on a 4x4 grid to combine them and
+ * create a tile with the number 2048.  The score increases by an amount equal to the combination
  * of the two tiles.  The game ends when the board is full and no tiles can be combined.
  * @author Wonho Choi
+ * @version 1.3
  */
 public class _2048
 {
@@ -112,7 +114,7 @@ public class _2048
      *
      * Adds a new tile to the board using the generateTile method.
      *
-     * @param direction
+     * @param direction String denoting which direction to take in.
      */
     public void move(String direction)
     {
