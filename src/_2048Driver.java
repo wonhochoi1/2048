@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Class instantiating the _2048 game and calling all the different movements that the user inputs (4 directions). 
+ * @author Wonho Choi
+ * @version 1.2
 public class _2048Driver
 {
     public static void main(String[] args)
