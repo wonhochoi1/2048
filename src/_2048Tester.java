@@ -1,3 +1,8 @@
+/**
+ * Class denoting the test cases and main driver instantiating the different boards from the test cases.
+ * @author Wonho Choi
+ * @version 1.3
+ */
 public class _2048Tester
 {
     public static void main(String[] args)
@@ -12,6 +17,7 @@ public class _2048Tester
         gameOverCaseTrue();
     }
 
+    //Test cases for the board, with one move. 
     private static void case1()
     {
         System.out.println("Test Case 1:");
